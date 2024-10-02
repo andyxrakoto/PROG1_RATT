@@ -4,3 +4,4 @@ function removeWords(original, wordsToRemove) {
         .filter(word => !wordsToRemove.includes(word))
         .join(' ');
 }
+

@@ -7,6 +7,5 @@ function getMostPopularPlaces(...places) {
     const sortedPlaces = Object.entries(placeCount)
         .sort((a, b) => b[1] - a[1]);
 
-    
     return `${sortedPlaces[0][0]} ${sortedPlaces[1][0]}`;
 }
